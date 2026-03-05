@@ -1,5 +1,5 @@
 /* ===================================== */
-/* VARIABLES Y RESET */
+/* COLORES */ 
 /* ===================================== */
 
 :root {
@@ -174,7 +174,7 @@ nav a:hover::after {
 
 
 /* ===================================== */
-/* ABOUT */
+/* ABOUT - SOBRE LOS LIBROS*/
 /* ===================================== */
 
 .about {
@@ -182,7 +182,7 @@ nav a:hover::after {
   text-align: center;
 }
 
-/* Quitamos color verde en primera línea */
+
 .about p::first-line {
   font-weight: 600;
   color: var(--text-light);
@@ -236,7 +236,7 @@ aside {
   border-radius: 10px;
 }
 
-/* Figcaption más pequeño y elegante */
+/* letra pequeña debajo de las imégenes */
 figcaption {
   margin-top: 0.5rem;
   font-size: 0.8rem;
@@ -248,7 +248,7 @@ figcaption {
 
 
 /* ===================================== */
-/* CONTACT */
+/* CONTACTO */
 /* ===================================== */
 
 .contact {
@@ -320,7 +320,7 @@ footer {
   }
 
   .buttons {
-    justify-content: flex-start; /* botón alineado correctamente */
+    justify-content: flex-start; /* botón alineado */ 
   }
 
   input, textarea {
@@ -349,5 +349,6 @@ footer {
   .hero-text h2 {
     font-size: 4.5rem;
   }
+
 
 }
